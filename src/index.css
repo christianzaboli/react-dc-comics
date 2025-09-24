@@ -1,0 +1,30 @@
+/* generalitá */
+
+*{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ------------------ */
+
+header a {
+    color: #1C1C1C;
+}
+main {
+    background-color: #1C1C1C;
+}
+
+footer {
+    background-image: url(./assets/footer-bg.jpg);
+}

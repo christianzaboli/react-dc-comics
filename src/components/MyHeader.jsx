@@ -4,7 +4,9 @@ const MyHeader = () => {
     return (
         <header>
             <figure>
-                <img src="../../public/dc-logo.png" alt="Logo" />
+                <a href="#">
+                    <img src="../../public/dc-logo.png" alt="Logo" />
+                </a>
             </figure>
             <nav>
                 <ul>

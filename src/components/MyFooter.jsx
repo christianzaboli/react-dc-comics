@@ -1,3 +1,10 @@
+import facebook from '../assets/footer-facebook.png';
+import twitter from '../assets/footer-twitter.png';
+import youtube from '../assets/footer-youtube.png';
+import pinterest from '../assets/footer-pinterest.png';
+import periscope from '../assets/footer-periscope.png';
+
+
 // creo ed esporto component
 
 const MyFooter = () => {
@@ -5,7 +12,7 @@ const MyFooter = () => {
         <footer>
             <div className="container">
                 {/* logo overlay sul bg */}
-                <img src="../../public/dc-logo-bg.png" alt="" />
+                <img src="../../public/dc-logo-bg.png" alt="background logo" id='bgLogo' />
 
                 <div className="footer-links">
 
@@ -23,7 +30,7 @@ const MyFooter = () => {
                         </ul>
                     </div>
 
-                    {/* seconda lista */} 
+                    {/* seconda lista */}
                     <div>
                         <h5>Shop</h5>
                         <ul>
@@ -32,7 +39,7 @@ const MyFooter = () => {
                         </ul>
                     </div>
 
-                    {/* terza lista */} 
+                    {/* terza lista */}
                     <div>
                         <h5>DC</h5>
                         <ul>
@@ -50,7 +57,7 @@ const MyFooter = () => {
                         </ul>
                     </div>
 
-                    {/* Quarta lista lista */} 
+                    {/* Quarta lista lista */}
                     <div>
                         <h5>SITES</h5>
                         <ul>
@@ -62,21 +69,21 @@ const MyFooter = () => {
                         </ul>
                     </div>
                 </div>
-                
+
 
             </div>
 
             <div className="end-page">
                 <div className="endpage-flex">
-                    <button>SIGN-UP NOW!</button>
+                    <button className='btn'>SIGN-UP NOW!</button>
                     <div className="footer-socials">
                         <p>FOLLOW US</p>
                         <ul>
-                            <li><a href="#"></a>*facebook*</li>
-                            <li><a href="#"></a>*twitter*</li>
-                            <li><a href="#"></a>*yotube*</li>
-                            <li><a href="#"></a>*pinterest*</li>
-                            <li><a href="#"></a>*periscope*</li>
+                            <li><a href="#"><img src={facebook} alt="" /></a></li>
+                            <li><a href="#"><img src={twitter} alt="" /></a></li>
+                            <li><a href="#"><img src={youtube} alt="" /></a></li>
+                            <li><a href="#"><img src={pinterest} alt="" /></a></li>
+                            <li><a href="#"><img src={periscope} alt="" /></a></li>
                         </ul>
                     </div>
                 </div>

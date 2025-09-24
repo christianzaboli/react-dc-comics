@@ -58,6 +58,17 @@ const MyFooter = () => {
             
             {/* logo overlay sul bg */}
             <img src="../../public/dc-logo-bg.png" alt="" />
+                    <div>
+            <button>SIGN-UP NOW!</button>
+            <p>FOLLOW US</p>
+            <ul>
+                <li><a href="#"></a>*facebook*</li>
+                <li><a href="#"></a>*twitter*</li>
+                <li><a href="#"></a>*yotube*</li>
+                <li><a href="#"></a>*pinterest*</li>
+                <li><a href="#"></a>*periscope*</li>
+            </ul>
+        </div>
         </footer>
     )
 

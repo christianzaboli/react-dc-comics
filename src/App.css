@@ -1,0 +1,31 @@
+.header-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-flex figure a img {
+    padding: 15px 0;
+}
+
+.header-flex nav{
+    height: 100%;
+    align-content: center;
+    font-weight: bold;
+    color: #464646
+}
+
+.header-flex ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.header-flex nav a:hover {
+    color: #0C7CEC;
+}

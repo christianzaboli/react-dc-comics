@@ -3,25 +3,29 @@
 const MyHeader = () => {
     return (
         <header>
-            <figure>
-                <a href="#">
-                    <img src="../../public/dc-logo.png" alt="Logo" />
-                </a>
-            </figure>
-            <nav>
-                <ul>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">6</a></li>
-                    <li><a href="#">7</a></li>
-                    <li><a href="#">8</a></li>
-                    <li><a href="#">9</a></li>
-                    <li><a href="#">10</a></li>
-                </ul>
-            </nav>
+            <div className="container">
+                <div className="header-flex">
+                    <figure>
+                        <a href="#">
+                            <img src="../../public/dc-logo.png" alt="Logo" />
+                        </a>
+                    </figure>
+                    <nav>
+                        <ul>
+                            <li><a href="#">CHARACTERS</a></li>
+                            <li><a href="#">COMICS</a></li>
+                            <li><a href="#">MOVIES</a></li>
+                            <li><a href="#">TV</a></li>
+                            <li><a href="#">GAMES</a></li>
+                            <li><a href="#">COLLECTIBLES</a></li>
+                            <li><a href="#">VIDEOS</a></li>
+                            <li><a href="#">FANS</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">SHOP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
     )
 }

@@ -1,20 +1,34 @@
 import MyLinks from './MyLinks'
+import comics from './comics'
 
 // creo ed esporto component
 
 const MyMain = () => {
+
+    const comicsMapped = comics.map(card => (
+        <a href='#' key={card.id} className='card'>
+            <div>
+                <img className='cardImg' src={card.thumb} alt={card.title} />
+            </div>
+            <h4>{card.title}</h4>
+        </a>
+    ))
     return (
         <main>
+            <div className='jumbotron'></div>
             <div className="container">
-
                 <div className='main-content'>
-                    <h1> Content goes here </h1>
+                    <h2 className='currentLabel'>CURRENT SERIES</h2>
+                    <div className='card-container'>
+                        {comicsMapped}
+
+                        <button className='btn-blue'>LOAD MORE</button>
+                    </div>
                 </div>
             </div>
             <MyLinks />
         </main>
     )
-
 }
 
 export default MyMain

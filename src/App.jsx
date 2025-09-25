@@ -12,11 +12,9 @@ function App() {
 
   return (
     <>
-        <MyHeader />
-        <MyMain />
-
-        
-        <MyFooter />
+      <MyHeader />
+      <MyMain />
+      <MyFooter />
     </>
   )
 }

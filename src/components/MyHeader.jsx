@@ -4,20 +4,20 @@ const MyHeader = () => {
 
     // array di oggetti da mappare
     const navbar = [
-        { id: '1', title: 'CHARACTERS', url: '#' },
-        { id: '2', title: 'COMICS', url: '#' },
-        { id: '3', title: 'MOVIES', url: '#' },
-        { id: '4', title: 'TV', url: '#' },
-        { id: '5', title: 'GAMES', url: '#' },
-        { id: '6', title: 'COLLECTIBLES', url: '#' },
-        { id: '7', title: 'VIDEOS', url: '#' },
-        { id: '8', title: 'FANS', url: '#' },
-        { id: '9', title: 'VIDEOS', url: '#' },
-        { id: '10', title: 'NEWS', url: '#' },
-        { id: '11', title: 'SHOP', url: '#' },
+        { id: '1', title: 'CHARACTERS', url: '#', current: false },
+        { id: '2', title: 'COMICS', url: '#', current: true },
+        { id: '3', title: 'MOVIES', url: '#', current: false },
+        { id: '4', title: 'TV', url: '#', current: false },
+        { id: '5', title: 'GAMES', url: '#', current: false },
+        { id: '6', title: 'COLLECTIBLES', url: '#', current: false },
+        { id: '7', title: 'VIDEOS', url: '#', current: false },
+        { id: '8', title: 'FANS', url: '#', current: false },
+        { id: '9', title: 'VIDEOS', url: '#', current: false },
+        { id: '10', title: 'NEWS', url: '#', current: false },
+        { id: '11', title: 'SHOP', url: '#', current: false },
     ]
     const navbarMapped = navbar.map(item => (
-        <li key={item.id}><a href={item.url}><div>{item.title}</div></a></li>
+        <li key={item.id}><a href={item.url}><div className={item.current ? 'active' : ''}>{item.title}</div></a></li>
     ))
 
     return (

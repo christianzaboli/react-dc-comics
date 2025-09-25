@@ -22,10 +22,7 @@
 }
 
 .active {
-    height: 5px;
-    position: relative;
-    border-bottom: 5px solid #0C7CEC;
-    bottom: -61px;
+    color: #0C7CEC;
 }
 
 .ds-none {

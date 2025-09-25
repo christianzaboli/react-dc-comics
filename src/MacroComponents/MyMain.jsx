@@ -1,10 +1,11 @@
 import MyLinks from './MyLinks'
-import comics from './comics'
+import comics from './microComponents/comics'
 
 // creo ed esporto component
 
 const MyMain = () => {
 
+    // funzione di creazione card
     const comicsMapped = comics.map(card => (
         <a href='#' key={card.id} className='card'>
             <div>
@@ -13,6 +14,8 @@ const MyMain = () => {
             <h4>{card.title}</h4>
         </a>
     ))
+
+
     return (
         <main>
             <div className='jumbotron'></div>

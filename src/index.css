@@ -142,7 +142,7 @@ header a div {
 .currentLabel {
     position: absolute;
     background-color: #0C7CEC;
-    padding: 1rem;
+    padding: 1rem 3rem;
     top: -30px;
 }
 
@@ -171,6 +171,7 @@ header a div {
 
 .card h4 {
     font-weight: normal;
+    text-transform: uppercase;
 }
 
 .cardImg {

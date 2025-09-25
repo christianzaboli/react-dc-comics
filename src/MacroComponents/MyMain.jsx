@@ -8,10 +8,8 @@ const MyMain = () => {
     // funzione di creazione card
     const comicsMapped = comics.map(card => (
         <a href='#' key={card.id} className='card'>
-            <div>
-                <img className='cardImg' src={card.thumb} alt={card.title} />
-            </div>
-            <h4>{card.title}</h4>
+            <div><img className='cardImg' src={card.thumb} alt={card.title} /></div>
+            <h4>{card.series}</h4>
         </a>
     ))
 
@@ -29,6 +27,8 @@ const MyMain = () => {
                     </div>
                 </div>
             </div>
+
+            {/* fascia blu con i links */}
             <MyLinks />
         </main>
     )

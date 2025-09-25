@@ -1,10 +1,3 @@
-import facebook from '../assets/footer-facebook.png';
-import twitter from '../assets/footer-twitter.png';
-import youtube from '../assets/footer-youtube.png';
-import pinterest from '../assets/footer-pinterest.png';
-import periscope from '../assets/footer-periscope.png';
-
-
 // creo ed esporto component
 
 const MyFooter = () => {
@@ -79,11 +72,11 @@ const MyFooter = () => {
                     <div className="footer-socials">
                         <p>FOLLOW US</p>
                         <ul>
-                            <li><a href="#"><img src={facebook} alt="" /></a></li>
-                            <li><a href="#"><img src={twitter} alt="" /></a></li>
-                            <li><a href="#"><img src={youtube} alt="" /></a></li>
-                            <li><a href="#"><img src={pinterest} alt="" /></a></li>
-                            <li><a href="#"><img src={periscope} alt="" /></a></li>
+                            <li><a href="#"><img src='../../src/assets/footer-facebook.png' alt="Facebook" /></a></li>
+                            <li><a href="#"><img src='../../src/assets/footer-twitter.png' alt="twitter" /></a></li>
+                            <li><a href="#"><img src='../../src/assets/footer-youtube.png' alt="youtube" /></a></li>
+                            <li><a href="#"><img src='../../src/assets/footer-pinterest.png' alt="pinterest" /></a></li>
+                            <li><a href="#"><img src='../../src/assets/footer-periscope.png' alt="periscope" /></a></li>
                         </ul>
                     </div>
                 </div>

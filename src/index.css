@@ -63,6 +63,7 @@ footer {
     background-color: #0C7CEC;
     cursor: pointer;
     font-weight: bold;
+    border: 0;
 }
 
 /* ----------------- HEADER SETTINGS ----------------- */
